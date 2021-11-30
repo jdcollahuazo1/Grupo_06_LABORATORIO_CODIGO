@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/bootstrap1.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">LaboratorioGrupo6</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Login.html">Login </a>
+          </li>
+         
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<div class="main" id="section1">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 celeste d-flex justify-content-center py-4 border border-dark border-3 rounded-3">
+					<img width="50%" src="img/logo.png">
+				</div>
+			</div>
+		</div>
+  <a href="#section2" class="text-black">Materia</a>
+
+</div>
+<div class="main" id="section2">
+  <a href="#section1" class="text-white">Logo</a>
+  <br>
+  <br>
+  <div class="container pull-right">
+    <div class="row text-center">
+    <div class="col-xs-5 offset-xs-1 col-sm-5 offset-sm-1 col-md-5 offset-md-1 col-lg-5 offset-lg-1 verde text-center border border-dark border-3 rounded-3 text-center">
+      <h3 class="py-1 text-light text-center">Desarrollo de aplicaciones WEB</h3>
+      <br>
+      <div class="titulos"></div>
+        <h4 class="py-1 text-white ">GRUPO 6</h4>
+        <h5 class="py-1 text-white ">PERIODO ACADEMICO OCT21-MAR22</h5>
+        <h6 class="py-1 text-white ">NRC: 7383</h6>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+  
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+  
+        // Store hash
+        var hash = this.hash;
+  
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+     
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+<style>
+  #section1 {
+    height: 600px;
+    background-color: rgb(240, 244, 245);
+    font-size: 30px;
+    color:black;
+  }
+  
+  #section2 {
+    height: 600px;
+    background-color: rgb(41, 125, 136);
+    font-size: 30px;
+  }
+
+
+  </style>
+
+<body>
+
+
+
+    
+</body>
+</html>
