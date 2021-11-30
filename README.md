@@ -1,6 +1,6 @@
 # Grupo_06_LABORATORIO_CODIGO
 
-#Integrante
+#Integrantes :
 
 #Jose Collahuazo 
 #Kevin Sigcha
