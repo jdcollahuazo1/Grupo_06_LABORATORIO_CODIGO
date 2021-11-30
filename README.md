@@ -1,7 +1,7 @@
 # Grupo_06_LABORATORIO_CODIGO
 
-Integrante
+#Integrante
 
-Jose Collahuazo 
-Kevin Sigcha
-Christopher Ramos
+#Jose Collahuazo 
+#Kevin Sigcha
+#Christopher Ramos
